@@ -2,7 +2,7 @@ import axios from "axios";
 
 const client = axios.create({
     withCredentials: true,
-    baseURL: "http://54.209.253.54:5000",
+    baseURL: "https://chatifybackend-ikfs.onrender.com",
     // baseURL: process.env.REACT_APP_BACKEND_LINK || "http://localhost:5000/",
 })
 
