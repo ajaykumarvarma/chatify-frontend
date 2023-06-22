@@ -2,7 +2,7 @@ import axios from "axios";
 
 const client = axios.create({
     withCredentials: true,
-    baseURL: process.env.REACT_APP_BACKEND_LINK || "http://54.209.253.54:5000",
+    baseURL: process.env.REACT_APP_BACKEND_LINK || "https://chatifybackend-ikfs.onrender.com",
 })
 
 export const fetchNotifications = () => async (dispatch) => {
