@@ -30,7 +30,7 @@ const TopMenu = () => {
                     cursor: "pointer"
                 }}
             >
-                Chatify
+                Chatter Up
             </Typography>
             <MenuAvtar />
         </Box>
